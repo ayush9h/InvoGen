@@ -47,7 +47,7 @@ export default function Home() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/extract-details",
+        "https://invo-gen.vercel.app/extract-details",
         formData,
         {
           headers: {
